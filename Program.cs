@@ -34,7 +34,7 @@ if (S>N) {
 }
 Console.WriteLine($"Сумма чисел от {S} до {N} = {PrintNumbers(S,N)}");
 
-
+ 
 int PrintNumbers(int start, int end){
     if (start==end) return start;
     return (start + PrintNumbers(start+1, end));
